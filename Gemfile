@@ -24,6 +24,7 @@ group :test, :development do
   gem 'rspec-rails', '~> 2.0'
   gem 'database_cleaner'
   gem 'rails_best_practices', require: false
+  gem 'yard', require: false
 end
 
 group :test do

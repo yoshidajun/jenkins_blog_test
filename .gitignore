@@ -17,4 +17,5 @@
 *~
 /coverage
 /reports
-
+/doc
+/.yardoc
