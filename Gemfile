@@ -28,6 +28,8 @@ end
 group :test do
   gem 'headless'
   gem 'capybara-webkit'
+  gem 'simplecov', require: false
+  gem 'simplecov-rcov', require: false
 end
 
 gem 'jquery-rails'
