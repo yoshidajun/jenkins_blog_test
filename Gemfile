@@ -22,6 +22,12 @@ end
 
 group :test, :development do
   gem 'rspec-rails', '~> 2.0'
+  gem 'database_cleaner'
+end
+
+group :test do
+  gem 'headless'
+  gem 'capybara-webkit'
 end
 
 gem 'jquery-rails'
